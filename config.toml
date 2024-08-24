@@ -9,15 +9,15 @@ publishDir            = "public"
 
 [params]
     author        = "shenweiyan"
-    description   = "WebStack-Hugo 网址导航主题 | Bio IT 爱好者"
+    description   = "网址导航主题 | WEB3 爱好者"
     upload        = "https://www.yuque.com/forms/share/1a1fee15-f7a9-4ee6-9dd4-b0ba9fef1871"
     about         = "https://weiyan.cc/discussions-10/"	                # 左侧导航栏的"关于我们"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"	
     enablePreLoad = true                                                # 网站完全打开前预加载动画
-    textPreLoad   = "BioIT 爱好者"                                      # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    textPreLoad   = "WEB3 爱好者"                                      # 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = false                                               # 默认展开左侧边导航栏
     logosPath     = "https://res.bioit.top/logos"	        	# 网站每个导航地址logo存放地址
-    defaultLogo   = "https://res.bioit.top/logos/default.webp"  	# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
+    defaultLogo   = "/images/default.png"  	# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
     nightMode     = false						# 默认站点为深色(夜间)模式
     yiyan         = true                                        	# 默认启用一言服务
 
@@ -35,13 +35,13 @@ publishDir            = "public"
     favicon           = "https://res.bioit.top/sites/favicon.png"
     searchImageL      = "https://res.bioit.top/banner/bg-dna.jpg"	# 搜索部分浅色背景图
     searchImageD      = "https://res.bioit.top/banner/bg-dna.jpg"	# 搜索部分深色背景图
-    logoExpandLight   = "https://res.bioit.top/sites/bt8-expand-light.png"
-    logoExpandDark    = "https://res.bioit.top/sites/bt8-expand-dark.png"
-    logoCollapseLight = "https://res.bioit.top/sites/bt.png"
-    logoCollapseDark  = "https://res.bioit.top/sites/bt.png"
+    logoExpandLight   = "/images/logo-ai4.jpg"
+    logoExpandDark    = "/images/logo-ai4.jpg"
+    logoCollapseLight = "/images/logo-ai4.jpg"
+    logoCollapseDark  = "/images/logo-ai4.jpg"
 
 [markup.goldmark.renderer]
     unsafe = true
 
 [params.footer]
-    copyright = '&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | [Bio IT 爱好者](https://www.bioitee.com/) | [粤ICP备16023717号](http://beian.miit.gov.cn/) | [Netlify](https://app.netlify.com/) <br/>本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：<a href="mailto:shen@weiyan.cc?subject=WebStack-Hugo网址导航意见反馈" target="_blank">shen@weiyan.cc</a> <br/><script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3JHwtbgyvMReDNFU/quote.js?theme=#1690FF,#282A2D,#282A2D,#E87371,#FFFFFF,#1690FF,12&f=12&display=1,0,1,1,1,1,1,1"></script>'
+    copyright = '&copy; 2021 - {year} By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | [Web3 爱好者]()   <br/>本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：<a href="mailto:huaqianshu.lm@gmail.com?subject=WebStack-Hugo网址导航意见反馈" target="_blank">huaqianshu.lm@gmail.com</a> | 网站源码：<a href="https://github.com/miao9999/Bioit-top/tree/feat-aitool" target="_blank">https://github.com/miao9999/Bioit-top/tree/feat-aitool</a> '
